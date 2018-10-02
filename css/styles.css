@@ -1,0 +1,563 @@
+/* Standard Start*/
+
+*{
+	font-family: Calibri;
+	margin: auto auto;
+	padding: 0px;
+}
+
+html{
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+.header{
+	display: flex;
+	width: 100%;
+}
+
+#name{
+	width: 100%;
+	font-size: 50px;
+	font-style: italic;
+}
+
+#motto{
+	width: 100%;
+	font-size: 25px;
+	color: #A9E32B;
+}
+
+#logo{
+	height: 50%;
+	width: 50%;
+}
+
+.header_logo{
+	width: 50%;
+	text-align: right;
+}
+
+.header_name_motto{
+	width: 50%;
+	text-align: left;
+}
+
+nav{
+	margin-top: 25px;
+	text-align: center;
+	font-weight: 500;
+}
+
+nav ul li{
+	display: inline-block;
+	margin-right: 25px;
+	text-transform: uppercase;
+}
+
+nav ul li a:hover{
+	border-bottom: 3px solid #000000;
+	color: #CFE232;
+}
+
+a{
+	font-size: 18px;
+	text-decoration: none;
+	color: #8bc34a;
+}
+
+hr{
+	width: 75%;
+}
+
+.footer{
+	background-color: #8bc34a;
+	color: #000000;
+	display: flex;
+	width: 75%;
+}
+
+.footer_motto{
+	margin-left: 3px;
+	width: 50%;
+	text-align: left;
+}
+
+
+.footer_social_network{
+	margin-top: 3px;
+	margin-right: 3px;
+	width: 50%;
+	text-align: right;
+}
+
+/*Standard End*/
+
+/******************************************************************************************************/
+
+/*Index Start*/
+
+.slides{
+	display: none;
+	width: 75%;
+	height: 500px;
+}
+
+/*Index End*/
+
+/******************************************************************************************************/
+
+/*About Us Start*/
+
+.about_us_vision{	
+	display: flex;
+	width: 100%;
+}
+
+.vision{
+	width: 50%;
+	text-align: justify;
+	margin-left: 170px;
+}
+
+.vision h3{
+	text-align: center;
+}
+
+.vision p{
+	line-height: 150%;
+}
+
+.vision_image{
+	width: 50%;
+	text-align: center;
+}
+
+#vision_image{
+	width: 33%;
+}
+
+.about_us_mision{	
+	display: flex;
+	width: 100%;
+}
+
+.mision{
+	width: 50%;
+	text-align: justify;
+	margin-right: 170px;
+}
+
+.mision h3{
+	text-align: center;
+}
+
+.mision p{
+	line-height: 150%;
+}
+
+.mision_image{
+	width: 50%;
+	text-align: center;
+}
+
+#mision_image{
+	width: 33%;
+}
+
+.about_us{
+	font-size: 50px;
+	text-align: center;
+}
+
+.about_us p a{
+	font-size: 50px;
+	text-decoration: underline;
+}
+
+.about_us p a:hover{
+	color: #CFE232;
+}
+
+/*About Us End*/
+
+/******************************************************************************************************/
+
+/*Products Start*/
+
+.product_top{
+	margin-bottom: 5px;
+	display: flex;
+	width: 75%;
+	text-align: center;
+}
+
+.product_top_left{
+	width: 18.5%;
+}
+
+#product_1{
+	width: 100%;
+}
+
+.product_top_middle_left{
+	width: 18.5%;
+}
+
+#product_2{
+	width: 100%;
+}
+
+.product_top_middle_right{
+	width: 18.5%;
+}
+
+#product_3{
+	width: 100%;
+}
+
+.product_top_right{
+	width: 18.5%;
+}
+
+#product_4{
+	width: 100%;
+}
+
+.product_bottom{
+	margin-top: 5px;
+	display: flex;
+	width: 75%;
+	text-align: center;
+}
+
+.product_bottom_left{
+	width: 18.5%;
+}
+
+#product_5{
+	width: 100%;
+}
+
+.product_bottom_middle_left{
+	width: 18.5%;
+}
+
+#product_6{
+	width: 100%;
+}
+
+.product_bottom_middle_right{
+	width: 18.5%;
+}
+
+#product_7{
+	width: 100%;
+}
+
+.product_bottom_right{
+	width: 18.5%;
+}
+
+#product_8{
+	width: 100%;
+}
+
+.product{
+	font-size: 50px;
+	text-align: center;
+}
+
+.product p a{
+	font-size: 50px;
+	text-decoration: underline;
+}
+
+.product p a:hover{
+	color: #CFE232;
+}
+
+/*Products End*/
+
+/******************************************************************************************************/
+
+/*Media Start*/
+
+.video_top{	
+	display: flex;
+	width: 75%;
+}
+
+.video_top_left{
+	height: 100%;
+	width: 50%;
+	text-align: left;
+	margin-bottom: 5px;
+	margin-right: 5px;
+}
+
+#video_1{
+	width: 100%;
+	border: 0;
+}
+
+.video_top_right{
+	height: 100%;
+	width: 50%;
+	text-align: right;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+
+#video_2{
+	width: 100%;
+	border: 0;
+}
+
+.video_bottom{	
+	display: flex;
+	width: 75%;
+
+}
+
+.video_bottom_left{
+	height: 100%;
+	width: 50%;
+	text-align: left;
+	margin-top: 5px;
+	margin-right: 5px;
+
+}
+
+#video_3{
+	width: 100%;
+	border: 0;
+}
+
+.video_bottom_right{
+	height: 100%;
+	width: 50%;
+	text-align: right;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+#video_4{
+	width: 100%;
+	border: 0;
+}
+
+/*Media End*/
+
+/******************************************************************************************************/
+
+/*Contact Start*/
+
+.contact{	
+	display: flex;
+	width: 75%;
+}
+
+.information{
+	width: 50%;
+	text-align: left;
+	margin-left: 100px;
+}
+
+.information ul li a{
+	color: #000000;
+}
+
+.information ul li a:hover{
+	color: #CFE232;
+}
+
+.map{
+	height: 100%;
+	width: 100%;
+	text-align: right;
+}
+
+.map iframe{
+	height: 250px;
+	width: 400px;
+}
+
+/*Contact End*/
+
+/******************************************************************************************************/
+@media screen and (max-width: 1000px) {
+
+.information{
+	margin-left: 0px;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+
+#name{
+	font-size: 25px;
+}
+
+#moto{
+	font-size: 15px;
+}
+
+hr{
+	width: 100%;
+}
+
+.slides{
+	height: 400px;
+}
+
+.footer{
+	width: 100%;
+}
+
+.vision{
+	width: 100%;
+	margin: auto 10px auto 10px;
+}
+
+.vision h3{
+	font-size: 15px;
+	margin-top: 10px;
+}
+
+.vision p{
+	font-size: 15px;
+}
+
+.vision_image{
+	display: none;
+}
+
+.mision{
+	width: 100%;
+	margin: auto 10px auto 10px;
+}
+
+.mision h3{
+	font-size: 15px;
+	margin-top: 10px;
+}
+
+.mision p{
+	font-size: 15px;
+}
+
+
+.mision_image{
+	display: none;
+}
+
+.about_us{
+	font-size: 25px;
+	text-align: center;
+}
+
+.about_us p a{
+	font-size: 25px;
+	text-decoration: underline;
+}
+
+.product{
+	font-size: 25px;
+	text-align: center;
+}
+
+.product p a{
+	font-size: 25px;
+	text-decoration: underline;
+}
+
+.information{
+	margin-left: 0px;
+}
+
+.map iframe{
+	height: 250px;
+	width: 250px;
+}
+
+}
+
+@media screen and (max-width: 480px) {
+
+.header_name_motto{
+	display: none;
+}
+
+.header_logo{
+	text-align: center;
+}
+
+nav ul li a{
+	font-size: 15px;
+}
+
+nav ul li a:hover{
+	border-top: 5px solid #000000;
+}
+
+.footer{
+	width: 100%;
+}
+
+.footer_motto{
+	font-size: 10px;
+}
+
+.footer_social_network a img{
+	width: 7.5%;
+	height: 7.5%;
+}
+
+.slides{
+	height: 300px;
+}
+
+.information{
+	font-size: 10px;
+}
+
+.information ul li a{
+	font-size: 10px;
+}
+
+.social_network_color a img{
+	width: 10%;
+}
+
+figcaption{
+	font-size: 10px;
+}
+
+.about_us{
+	font-size: 15px;
+	text-align: center;
+}
+
+.about_us p a{
+	font-size: 15px;
+	text-decoration: underline;
+}
+
+.product{
+	font-size: 15px;
+	text-align: center;
+}
+
+.product p a{
+	font-size: 15px;
+	text-decoration: underline;
+}
+
+.map iframe{
+	height: 150px;
+	width: 150px;
+}
+
+}
